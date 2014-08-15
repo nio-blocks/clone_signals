@@ -1,7 +1,7 @@
-LoggerBlock
+CloneSignals
 ===========
 
-Logs each incoming signal to DEBUG.
+Performs a deepcopy on signals
 
 Properties
 --------------
@@ -13,8 +13,7 @@ None
 
 Commands
 ----------------
-
--   **log** (phrase="Default phrase"): Logs a DEBUG message `"Command log called with phrase: {0}".format(phrase)`.
+None
 
 Input
 -------
@@ -22,4 +21,4 @@ Any list of signals.
 
 Output
 ---------
-None
+Same list of signals as input.
