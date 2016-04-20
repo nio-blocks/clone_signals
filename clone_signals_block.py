@@ -1,10 +1,10 @@
-from nio.common.block.base import Block
-from nio.common.signal.base import Signal
-from nio.common.discovery import Discoverable, DiscoverableType
+from nio.block.base import Block
+from nio.signal.base import Signal
+from nio.util.discovery import discoverable
 from copy import deepcopy
 
 
-@Discoverable(DiscoverableType.block)
+@discoverable
 class CloneSignals(Block):
     """ Clone Signals block.
 
