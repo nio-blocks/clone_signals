@@ -1,0 +1,14 @@
+{
+  "nio/CloneSignals": {
+    "Dependencies": [
+      "None"
+    ],
+    "Commands": {},
+    "Version": "1.0.0",
+    "Properties": {},
+    "Category": "SignalModifier",
+    "Output": "Same list of signals as input.",
+    "Description": "Performs a deepcopy on signals",
+    "Input": "Any list of signals."
+  }
+}
