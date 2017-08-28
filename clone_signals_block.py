@@ -1,16 +1,15 @@
 from nio.block.base import Block
-from nio.signal.base import Signal
-from nio.util.discovery import discoverable
+from nio.properties import VersionProperty
 from copy import deepcopy
 
 
-@discoverable
 class CloneSignals(Block):
     """ Clone Signals block.
 
     Performs a deepcopy on signals.
 
     """
+    version = VersionProperty("1.0.0")
 
     def process_signals(self, signals):
         """ Overridden from the block interface.
@@ -19,6 +18,6 @@ class CloneSignals(Block):
         fresh_signals = []
 
         for signal in signals:
-           fresh_signals.append(deepcopy(signal))
+            fresh_signals.append(deepcopy(signal))
 
         self.notify_signals(fresh_signals)

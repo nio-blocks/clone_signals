@@ -1,10 +1,18 @@
 {
   "nio/CloneSignals": {
-    "version": "0.0.1",
-    "description": "",
-    "inputs": {},
-    "outputs": {},
+    "version": "1.0.0",
+    "description": "Performs a deepcopy on signals.",
     "properties": {},
+    "inputs": {
+      "default": {
+        "description": "Any list of signals."
+      }
+    },
+    "outputs": {
+      "default": {
+        "description": "Same list of signals as input."
+      }
+    },
     "commands": {}
   }
 }
