@@ -2,6 +2,9 @@
   "nio/CloneSignals": {
     "version": "1.0.0",
     "description": "Performs a deepcopy on signals.",
+    "categories": [
+      "Signal Inspection"
+    ],
     "properties": {},
     "inputs": {
       "default": {
