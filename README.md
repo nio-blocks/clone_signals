@@ -1,7 +1,6 @@
 CloneSignals
 ============
-
-Performs a deepcopy on signals.
+The CloneSignals block performs a [deepcopy](https://docs.python.org/3/library/copy.html#copy.deepcopy) on incoming signals and emits the deepcopy signal.
 
 Properties
 ----------
@@ -9,11 +8,11 @@ None
 
 Inputs
 ------
-- **default**:  Any list of signals.
+- **default**: Any list of signals.
 
 Outputs
 -------
-- **default**:  Same list of signals as input.
+- **default**: The deepcopy list of signals as incoming signals.
 
 Commands
 --------
@@ -22,3 +21,4 @@ None
 Dependencies
 ------------
 None
+
