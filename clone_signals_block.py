@@ -9,7 +9,7 @@ class CloneSignals(Block):
     Performs a deepcopy on signals.
 
     """
-    version = VersionProperty("1.0.0")
+    version = VersionProperty("1.0.1")
 
     def process_signals(self, signals):
         """ Overridden from the block interface.

@@ -2,6 +2,6 @@
   "nio/CloneSignals": {
     "language": "Python",
     "url": "git://github.com/nio-blocks/clone_signals.git",
-    "version": "1.0.0"
+    "version": "1.0.1"
   }
 }

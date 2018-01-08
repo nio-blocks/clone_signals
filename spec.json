@@ -1,6 +1,6 @@
 {
   "nio/CloneSignals": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "The CloneSignals block performs a [deepcopy](https://docs.python.org/3/library/copy.html#copy.deepcopy) on incoming signals and emits the deepcopy signal.",
     "categories": [
       "Signal Inspection"
